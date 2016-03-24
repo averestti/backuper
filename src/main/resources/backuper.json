@@ -1,0 +1,21 @@
+{
+  "name": "Backuper",
+  "tmpFolder": "tmp",
+  "backupConfigurations": [
+    {
+      "name": "Backup1",
+      "consumerConfiguration": {
+        "name": "Consumer1",
+        "configurationFile": "Consumer1 Config"
+      },
+      "producerConfigurations": [
+        {
+          "name": "Producer1",
+          "configurationFile": "Producer1 Config",
+          "count": 1
+        }
+      ],
+      "scheduling": "Cron Like Scheduling"
+    }
+  ]
+}
